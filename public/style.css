@@ -1,0 +1,491 @@
+body{
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #0b0b68;
+    width: 100%;
+    height: 100px;
+}
+.header .head{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+}
+.header .head .logo{
+    padding: 30px;
+    color: #fff;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: none;
+    padding-bottom: 0px;
+    height: 70px;
+    word-spacing: -10px;
+    padding-left: 120px;
+}
+.header .head .logo span{
+    color: goldenrod;
+    font-size: 26px ;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: none;
+}
+.header .head ul{
+    display: flex;
+    height: 40px;
+    margin: 0;
+    padding: 30px 50px;
+    padding-left: 300px;
+}
+.header .head ul li{
+    list-style: none;
+    padding: 0px 25px;
+}
+.header .head ul li a{
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* front section*/
+.front{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    top: -22px;
+    background-color: #0b0b68;
+}
+.front .row{
+    display: flex;
+    margin: 0px 150px;
+    padding-top: 100px;
+}
+.front .row .box-1{
+    width: 50%;
+}
+.front .row .box-1 h1{
+    color: #fff;
+    font-size: 48px;
+    font-family: sans-serif;
+
+}
+.front .row .box-1 p{
+    color: #dbd5d5;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.front .row .box-1 button{
+    border: 3px solid goldenrod;
+    padding: 10px 25px;
+    color: goldenrod;
+    font-size: 18px;
+    background-color: #0b0b68;
+    margin-top: 40px;
+}
+
+.front .row .box-1 .si{
+    padding: 12px 20px;
+    background-color: #eaac10;
+    color: #0b0ba4;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.front .row .box-2 img{
+    height: 375px;
+    width: 450px;
+}
+
+/* features section */
+.features{
+    background-size: cover;
+    background-color: #fafafa;
+    position: relative;
+    top: -45px;
+    width: 100%;
+}
+.features .feat{
+    text-align: center;
+    padding: 20px;
+}
+.features .feat h2{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.features .feat h3{
+    color: #d3caca;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    margin-top: 10px;
+}
+.features .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.features .row .box{
+    display: flex;
+    background-color: #fff;
+    border: 0px solid #f0eeee;
+    width: 360px;
+    height: 160px;
+    margin: 10px 10px;
+    box-shadow: 1px 1px 10px #b8b4b4;
+    border-radius: 10px;
+}
+.features .row .box:hover{
+    transform: scale(1.05);
+}
+.features .row .box-up{
+    display: flex;
+    background-color: #fff;
+    border: 0px solid #f0eeee;
+    width: 360px;
+    height: 160px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.features .row .box-up h2{
+    font-size: 35px;
+    font-family: cursive;
+    color: goldenrod;
+    margin: auto;
+    font-weight: bold;
+}
+.features .row .box-up h2 span{
+    color: #0b0b68;
+}
+.features .row .box img{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+}
+.features .row .box .box-right h4{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+/* FAQ section start*/
+.faq{
+    width: 100%;
+    background-size: cover;
+    background-color: #6b0899;
+    position: relative;
+    top: -20px;
+}
+.faq .faq-head{
+    text-align: center;
+}
+.faq .faq-head h2{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-top: 20px;
+}
+.faq .faq-head h3{
+    color: #e4dada;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.faq .faq-bottom .contents .label{
+    cursor: pointer;
+    font-family: monospace;
+    background-color: #fff;
+    padding: 20px 20px;
+    margin: 10px 350px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.faq .faq-bottom .contents .content{
+    background-color: #a47ac0;
+    color: #fff;
+    font-size: 17px;
+    font-family: monospace;
+    padding: 0px;
+    margin: 10px 350px;
+    position: relative;
+    top: -10px;
+    overflow: hidden;
+    height: 0px;
+    transition: 1s;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+.faq .faq-bottom .contents:active .content{
+    padding: 20px 20px;
+    height: 20px;
+}
+.faq .faq-bottom .contents .label::before{
+    content: '+';
+    position: absolute;
+    right: 390px;
+    font-size: 21px;
+}
+.faq .faq-bottom .contents:active .label::before{
+    content: '-';
+}
+.faq .faq-bottom{
+    padding-bottom: 30px;
+}
+.faq .sign{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.faq .sign button{
+    padding: 12px 20px;
+    background-color: #eaac10;
+    color: #0b0ba4;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: cursive;
+}
+/* statistics*/
+.static{
+    background-color: #fff;
+    background-size: cover;
+    width: 100%;
+}
+.static .heading{
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.static .heading h2{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: black;
+    padding-top: 20px;
+}
+.static .heading h3{
+    color: #a47ac0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.static .mid{
+    display: flex;
+    margin: 10px 240px;
+}
+.static .mid .box{
+    height: 200px;
+    width: 200px;
+    border: #b8b4b4 0px solid;
+    box-shadow: 1px 1px 10px #b8b4b4;
+    border-radius: 10px;
+    display: block;
+    background-color: #fff;
+    margin: 20px;
+    text-align: center;
+}
+.static .mid .box img{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.static .mid .box h2{
+    font-size: 30px;
+    color: #0b0ba4;
+}
+.static .mid .box h4{
+    font-size: 15px;
+    color: #0b0b68;
+    font-weight: 400;
+    font-family: cursive;
+    margin-top: -15px;
+}
+.static .mid .box:hover{
+    transform: scale(1.05);
+    background-color: #0b0b68;
+    color: #fff;
+}
+.static .mid .box:hover h2{
+    color: #fff;
+}
+.static .mid .box:hover h4{
+    color: #fff;
+}
+.static .sign{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+.static .sign button{
+    padding: 12px 20px;
+    background-color: #eaac10;
+    color: #0b0ba4;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: cursive;
+    border: transparent;
+}
+/* static section end*/
+
+.information{
+    width: 100%;
+    background-size: cover;
+    background-color: #0b0ba4;
+}
+.information .row{
+    display: flex;
+    padding: 40px 40px;
+}
+.information .row .box-left{
+    width: 50%;
+}
+.information .row .box-left img{
+    padding-left: 120px;
+    padding-top: 30px;
+}
+.information .row .box-right .form{
+    height: 600px;
+    width: 450px;
+    background-color: #0b0b68;
+    border-radius: 10px;
+    padding-left: 30px;
+    margin-left: 50px;
+}
+.information .row .box-right .form h2{
+    margin: auto;
+    padding: auto;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: monospace;
+    letter-spacing: 0.2em;
+}
+.information .row .box-right .form #name{
+    width: 350px;
+    color: #fff;
+    background-color: #0e0899;
+    font-family: monospace;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 30px;
+    border: transparent;
+    padding: 5px;
+    margin: 10px;
+}
+.information .row .box-right .form #mess{
+    width: 350px;
+    color: #fff;
+    background-color: #0e0899;
+    font-family: monospace;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 60px;
+    border: transparent;
+    padding: 5px;
+    margin: 10px;
+}
+.information .row .box-right .form .checkk{
+    display: flex;
+    margin-top: 30px;
+}
+.information .row .box-right .form .checkk p{
+    color: #d7cdcd;
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: 0px;
+}
+.information .row .box-right .form button{
+    padding: 10px 20px;
+    background-color: #eaac10;
+    color: #0b0ba4;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: cursive;
+    border: transparent;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+/* share section */
+.share .heading{
+    text-align: center;
+}
+.share .heading h2{
+    font-size: 25px;
+    font-family: monospace;
+    color: gray;
+    letter-spacing: 0.4em;
+}
+.share .bottom{
+    text-align: center;
+}
+.share .bottom img{
+    border-radius: 15%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+/* bottom section */
+.bot .he{
+    background-color: #08056d;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bot .he h3{
+    color: #fff;
+    font-size: 22px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.bot .he .bb{
+    display: inline-flex;
+    padding-bottom: 20px;
+}
+.bot .he .bb h4{
+    font-size: 14px;
+    color: #bcb5b5;
+    margin: 0px 10px;
+    font-weight: 400;
+    font-family: monospace;
+}
+.bot .she{
+    position: relative;
+    top: -20px;
+    text-align: center;
+    background-color: #050341;
+    padding: 0px 0px;
+    
+}
+.bot .she h3{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 10px ;
+}

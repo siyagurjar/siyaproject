@@ -1,0 +1,207 @@
+body{
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    max-width: 425px;
+}
+.header .head ul{
+    display: none;
+}
+.front{
+    height: 400px;
+}
+.front .row{
+    padding-top: 30px;
+}
+.front .row .box-1{
+    width: 300px;
+}
+.front .row .box-1 h1{
+    font-size: 32px;
+}
+.front .row .box-1 p{
+    font-size: 12px;
+}
+.front .row .box-1 button{
+    font-size: 15px;
+    padding: 6px 18px;
+    font-weight: 600;
+}
+.front .row .box-1 .si{
+    margin-top: 35px;
+    padding: 7px 10px;
+    font-size: 17px;
+}
+.front .row .box-2{
+    width: 0%;
+}
+.front .row .box-2 img{
+    display: none;
+}
+.features .feat{
+    padding-bottom: 0px;
+}
+.features .feat h2{
+    font-size: 23px;
+    color: #1010a6;
+}
+.features .feat h3{
+    letter-spacing: 0.2em;
+    font-size: 15px;
+}
+.features .row{
+    justify-content: center;
+    align-items: center;
+}
+.features .row .box{
+    margin: 5px;
+    height: 150px;
+}
+.features .row .box .box-right h4{
+    font-size: 14px;
+    color: #1010a6;
+    font-weight: 700;
+}
+.features .row .box .box-right p{
+    font-size: 12px;
+    color: goldenrod;
+}
+.faq .faq-head h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.faq .faq-head h3{
+    letter-spacing: 0.2em;
+    font-size: 10px;
+    font-weight: 100;
+}
+.faq .faq-bottom{
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.faq .faq-bottom .contents .label{
+    margin: 10px 40px;
+    padding: 10px;
+    font-size: 12px;
+}
+.faq .faq-bottom .contents .content{
+    margin: 10px 40px;
+    font-size: 12px;
+}
+.faq .faq-bottom .contents:active .content{
+    padding: 10px;
+}
+.faq .faq-bottom .contents .label::before{
+    right: 50px;
+    font-size: 17px;
+}
+.faq .sign{
+    padding-bottom: 20px;
+}
+.faq .sign button{
+    font-size: 14px;
+    padding: 9px 13px;
+}
+.static{
+    position: relative;
+    top: -15px;
+}
+.static .heading{
+    padding-bottom: 0px;
+}
+.static .heading h2{
+    padding-top: 0px;
+    font-size: 25px;
+}
+.static .heading h3{
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.static .mid{
+    display: block;
+}
+.static .mid .box{
+    height: 160px;
+    width: 160px;
+    margin: 10px auto;
+}
+.static .mid .box h2{
+    margin: 0px;
+    margin-top: 10px;
+}
+.static .mid .box h4{
+    margin: 0px;
+}
+.static .sign button{
+    font-size: 14px;
+    padding: 9px 13px;
+}
+.static .sign{
+    padding-bottom: 20px;
+}
+.information .row{
+    padding: 16px 25px;
+}
+.information .row .box-left{
+    width: 0%;
+}
+.information .row .box-left img{
+    display: none;
+}
+.information .row .box-right{
+    width: 100%;
+}
+.information .row .box-right .form{
+    padding: 0px;
+    height: 500px;
+}
+.information .row .box-right .form h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.information .row .box-right .form #name{
+    width: 200px;
+    font-size: 14px;
+}
+.information .row .box-right .form #mess{
+    width: 200px;
+    font-size: 14px;
+}
+.information .row .box-right .form .checkk{
+    margin-top: 15px;
+}
+.information .row .box-right .form button{
+    margin-left: 60px;
+}
+.share{
+    padding-top: 5px;
+    height: 100px;
+}
+.share .heading h2{
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.share .bottom img{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+.bot .he h3{
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.bot .he .bb{
+    padding-bottom: 0px;
+}
+.bot .he .bb h4{
+    font-size: 13px;
+}
+.bot .she h3{
+    font-size: 15px;
+}

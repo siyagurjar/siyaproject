@@ -1,0 +1,121 @@
+body{
+    background-size: cover;
+    max-width: 1024px;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    max-width: 1024px;
+}
+.header .head .logo{
+    padding-left: 0px;
+}
+.header .head ul{
+    position: relative;
+    right: 145px;
+}
+.header .head ul li{
+    padding: 0px 10px ;
+}
+.header .head ul li a{
+    font-size: 17px;
+}
+.front{
+    height: 520px;
+}
+.front .row{
+    margin: 0px;
+    padding-top: 60px;
+}
+.front .row .box-1{
+    padding-left: 25px;
+}
+.front .row .box-2{
+    width: 50%;
+}
+.front .row .box-2 img{
+    width: 345px;
+}
+.front .row .box-1 h1{
+    margin: 0px;
+}
+.front .row .box-1 p{
+    margin-top: 20px;
+}
+.front .row .box-1 button{
+    margin-top: 20px;
+}
+.front .row .box-1 .si{
+    margin-top: 20px;
+}
+/* features section */
+.features .row{
+    justify-content: center;
+}
+.features .row .box{
+    width: 330px;
+    height: 165px;
+}
+.features .row .box-up{
+    margin: 10px 200px;
+    width: 320px;
+    height: 170px;
+}
+/*faq section*/
+.faq .faq-head h3{
+    letter-spacing: 0.3em;
+}
+.faq .faq-bottom .contents .label{
+    margin: 10px 70px;
+}
+.faq .faq-bottom .contents .content{
+    margin: 10px 70px;
+}
+.faq .faq-bottom .contents .label::before{
+    right: 90px;
+}
+.static .mid{
+    margin: 10px 40px;
+}
+.static .mid .box{
+    margin: 10px 10px;
+    height: 180px;
+}
+.information .row .box-left img{
+    padding: 50px 0px;
+    width: 330px;
+    height: 350px;
+    border-radius: 50%;
+}
+.information .row .box-right{
+    width: 344px;
+}
+.information .row .box-right .form{
+    margin-left: 0px;
+    width: fit-content;
+    height: 530px;
+    padding-left: 15px;
+}
+.information .row .box-right .form #name{
+    width: 280px;
+}
+.information .row .box-right .form #mess{
+    width: 280px;
+}
+.information .row .box-right .form button{
+    margin-left: 85px;
+}
+.share{
+    background-color: black;
+    height: 160px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.share .heading h2{
+    letter-spacing: 0.2em;
+    font-size: 20px;
+}
+.share .bottom img{
+    height: 70px;
+    width: 70px;
+}
